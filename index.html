@@ -1,26 +1,20 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-
-  <meta charset="UTF-8">
-
-  <title>CodePen - Lets Do It</title>
-
-    <style>
-@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
-
+CTYPE html>
+<html >
+<head>i
+<meta charset="UTF-8">
+  <title>TO DO LIST</title>
+  <style>
+        
+	      @import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+	      @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
 body{
 	margin: 0;
 	padding: 0;
 	background: #fff;
-
-	color: #fff;
+        color: #fff;
 	font-family: Arial;
 	font-size: 12px;
 }
-
 .body{
 	position: absolute;
 	top: -20px;
@@ -29,12 +23,11 @@ body{
 	bottom: -40px;
 	width: auto;
 	height: auto;
-	background-image: url(https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjV4o-fgdXTAhVjxlQKHdzxC-MQjRwIBw&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fwallpapers%2F&psig=AFQjCNHAhHEafWVn4YnOrJE3mOUroC7Oiw&ust=1493922503379948);
+	background-image: url(https://static1.squarespace.com/static/5565e32ce4b0dcba1f63442d/t/5660edbbe4b0690830f82514/1449192907245/paper-iphone-to-do-list);
 	background-size: cover;
-	-webkit-filter: blur(5px);
+	-webkit-filter: blur(0px);
 	z-index: 0;
 }
-
 .grad{
 	position: absolute;
 	top: -20px;
@@ -43,18 +36,16 @@ body{
 	bottom: -40px;
 	width: auto;
 	height: auto;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); 
 	z-index: 1;
 	opacity: 0.7;
 }
-
 .header{
 	position: absolute;
 	top: calc(50% - 35px);
 	left: calc(50% - 255px);
 	z-index: 2;
 }
-
 .header div{
 	float: left;
 	color: #fff;
@@ -62,41 +53,42 @@ body{
 	font-size: 35px;
 	font-weight: 200;
 }
-
 .header div span{
 	color: #5379fa !important;
 }
-
 .login{
 	position: absolute;
 	top: calc(50% - 75px);
 	left: calc(50% - 50px);
-	height: 150px;
-	width: 350px;
-	padding: 10px;
+	background : #fff;
+	box-shadow: 5px 5px 3px #2A2B2B;
+	z-index : 5;
+	height: 200px;
+	width: 260px;
+        padding: 10px;
+	border-radius: 4px;
 	z-index: 2;
 }
-
 .login input[type=text]{
 	width: 250px;
 	height: 30px;
 	background: transparent;
-	border: 1px solid rgba(255,255,255,0.6);
+	border: 1px solid rgba(63, 127, 191,0.6);
 	border-radius: 2px;
-	color: #fff;
+        color: #3F7FBF;
 	font-family: 'Exo', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	padding: 4px;
+	margin-top: 10px;
 }
-
 .login input[type=password]{
 	width: 250px;
 	height: 30px;
 	background: transparent;
-	border: 1px solid rgba(255,255,255,0.6);
+	border: 1px solid rgba(63, 127, 191,0.6);
 	border-radius: 2px;
-	color: #fff;
+	color: #3F7FBF;
 	font-family: 'Exo', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
@@ -104,21 +96,20 @@ body{
 	margin-top: 10px;
 }
 
-.login input[type=button]{
+.login input[type=submit]{
 	width: 260px;
 	height: 35px;
-	background: #fff;
-	border: 1px solid #fff;
+	background: #3498DB;
+	border: 1px solid #3498DB;
 	cursor: pointer;
 	border-radius: 2px;
-	color: #a18d6c;
+	color: #fff;
 	font-family: 'Exo', sans-serif;
-	font-size: 16px;
-	font-weight: 400;
+        font-size: 16px;
+        font-weight: 400;
 	padding: 6px;
-	margin-top: 10px;
+        margin-top: 10px;
 }
-
 .login input[type=button]:hover{
 	opacity: 0.8;
 }
@@ -129,48 +120,44 @@ body{
 
 .login input[type=text]:focus{
 	outline: none;
-	border: 1px solid rgba(255,255,255,0.9);
+	border: 1px solid rgba(63, 127, 191,0.9);
 }
-
 .login input[type=password]:focus{
 	outline: none;
-	border: 1px solid rgba(255,255,255,0.9);
+	border: 1px solid rgba(63, 127, 191,0.9);
 }
 
 .login input[type=button]:focus{
 	outline: none;
 }
-
 ::-webkit-input-placeholder{
-   color: rgba(255,255,255,0.6);
+        color: rgba(63, 127, 191,0.6);
 }
-
 ::-moz-input-placeholder{
-   color: rgba(255,255,255,0.6);
+        color: rgba(63, 127, 191,0.6);
 }
 </style>
 
-    <script src="js/prefixfree.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
 </head>
 
 <body>
-
   <div class="body"></div>
-		<div class="grad"></div>
-		<div class="header">
-		<div>Lets</div>
-			<div><span>DoIt</span></div>
-		</div>
-		<br>
-		<div class="login">
-				<input type="text" placeholder="emailId" name="user"><br>
-				<input type="password" placeholder="password" name="password"><br>
-				<input type="button" value="Login">
-		</div>
-
-  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
-
+  <div class="grad"></div>
+  		
+  <br>
+  <div class="login">
+	<form class="form-login" method="post" action="./task_list/index.php">
+        <input type="text" placeholder="Username" name="username"><br>
+	<input type="password" placeholder="password" name="password"><br>
+	<input type ="hidden" name="action" value="test_user">
+        <input type="submit" value="Login" name="submit">
+	</form>
+	<form class="form-login" method="post" action="register.php">
+	<input type="submit" value="Sign-Up" name="submit">
+	</form>
+</div>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 </body>
-
 </html>
