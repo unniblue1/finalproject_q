@@ -1,5 +1,5 @@
 <?php
-require('../model/db_connection.php');
+require('../model/database.php');
 require('../model/db.php');
 $action = filter_input(INPUT_POST, "action");
 if($action == NULL)
@@ -69,5 +69,4 @@ else if ($action == 'deletetask'){
 $result = getTodoItems($_COOKIE['my_id']);
     include('list.php');
 
-}*/
-?>
+}*/>
