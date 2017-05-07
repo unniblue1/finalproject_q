@@ -18,7 +18,7 @@
 
 
 <div class="container">
-  <h2>User Info</h2>
+  <h2>User Information</h2>
   <form method="post" action="createaccount.php">
     <div class="form-group">
       <!-- <label>Email:</label> -->
