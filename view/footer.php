@@ -1,10 +1,10 @@
-<footer>
-    <p class="copyright">
-<<<<<<< HEAD
-        &copy; <?php echo date("Y"); ?> To Do List.
-=======
-        &copy; <?php echo date("Y"); ?> To Do List, Inc.
->>>>>>> 139ea4eaeda94378db947aef1c57d3a2a553432c
+<!doctype html>
+<html>
+<body>
+<footer class="container-fluid text-center">
+    <p class="copyright" style="color:black;">
+    	<a href="logout.php">Log Out</a><br>
+        &copy; <?php echo date("Y"); ?> Do It Now, Inc.
     </p>
 </footer>
 </body>
