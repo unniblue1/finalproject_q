@@ -9,7 +9,7 @@
   <div class="row">
     <div class="col-sm-8">
       <h2>Account Information</h2><br>
-      <h4>To access your account, please enter your username and password and then click on the "Login" button. If you have not registered, enter your information and click on the "Sign Up" button to create an account.</h4>
+      <h4>Login to access your account or if you have not registered, please  click on the Sign Up button to create an account.</h4>
       <br>
     </div>
   </div>
