@@ -115,12 +115,13 @@
   }
   .panel-footer .btn {
       margin: 15px 0;
-      background-color: #375c96;
+      background-color: #FFEFD5;
       color: #fff;
   }
   .navbar {
       margin-bottom: 0;
-      background-color: #375c96;
+      //background-color: #375c96;
+      background-color: #FFEFD5;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -134,6 +135,8 @@
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color: #375c96 !important;
+      //color: #D3D3D3 !important;
+      
       background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {
