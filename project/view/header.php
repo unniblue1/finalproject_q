@@ -19,7 +19,7 @@
   h2 {
       font-size: 24px;
       text-transform: uppercase;
-      color: #5B3830;
+      color: #E0FFFF;
       font-weight: 600;
       margin-bottom: 30px;
   }
