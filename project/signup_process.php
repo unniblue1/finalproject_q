@@ -22,23 +22,23 @@
   <form method="post" action="createaccount.php">
     <div class="form-group">
       <!-- <label>Email:</label> -->
-      <input type="text" name="email" class="form-control" id="email" placeholder="Enter email" style="padding: 2px 7px 10px 9px";>
+      <input type="text" name="email" class="form-control" id="email" placeholder="Enter email" style="padding: 2px 7px 10px 9px;"required>
     </div>
     <div class="form-group">
       <!-- <label>Password:</label> -->
-      <input type="password" name="password" class="form-control" id="email" placeholder="Enter password" style="padding: 2px 7px 10px 9px";>
+      <input type="password" name="password" class="form-control" id="email" placeholder="Enter password" style="padding: 2px 7px 10px 9px;"required>
     </div>
     <div class="form-group">
       <!-- <label>First Name:</label> -->
-      <input type="text" name="fname" class="form-control" id="email" placeholder="Enter first name" style="padding: 2px 7px 10px 9px";>
+      <input type="text" name="fname" class="form-control" id="email" placeholder="Enter first name" style="padding: 2px 7px 10px 9px;"required>
     </div>
     <div class="form-group">
       <!-- <label>Last Name:</label> -->
-      <input type="text" name="lname" class="form-control" id="email" placeholder="Enter last name" style="padding: 2px 7px 10px 9px";>
+      <input type="text" name="lname" class="form-control" id="email" placeholder="Enter last name" style="padding: 2px 7px 10px 9px;"required>
     </div>
     <div class="form-group">
       <!-- <label>Phone Number:</label> -->
-      <input type="text" name="phone" class="form-control" id="email" placeholder="Enter phone number" style="padding: 2px 7px 10px 9px";>
+      <input type="text" name="phone" class="form-control" id="email" placeholder="Enter phone number" style="padding: 2px 7px 10px 9px;"required>
     </div>
     <div class="form-group">
       <!-- <label>Date of Birth:</label> -->
