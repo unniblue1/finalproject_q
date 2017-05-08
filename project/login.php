@@ -7,7 +7,7 @@
 <div id="about" class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
-      <h2>Get Started</h2><br>
+      <h2>Login</h2><br>
       <h4> "Login" to access your account or click on "Sign Up" button to create an account.</h4>
       <br>
     </div>
