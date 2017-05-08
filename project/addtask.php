@@ -15,11 +15,11 @@
     <form method="post" action="index.php" >
       <div class="form-group">
         <label>Task:</label>
-        <input type="text" name="task" class="form-control" id="task" placeholder="Enter Task" style="padding: 2px 7px 10px 9px";>
+        <input type="text" name="task" class="form-control" id="task" placeholder="Enter Task" style="padding: 2px 7px 10px 9px;"required>
       </div>
       <div class="form-group">
         <label>Start Date:</label>
-        <input type="date" name="createddate" class="form-control" id="createddate" style="padding: 2px 7px 10px 9px"; >
+        <input type="date" name="createddate" class="form-control" id="createddate" style="padding: 2px 7px 10px 9px;"required>
       </div>
       <div class="form-group">
         <label>Due Date:</label>
