@@ -17,7 +17,7 @@
       
 
 
-<div class="container" style="width: 24%;position: relative;center: -40%;background: #F5DEB3;padding: 8px 10px 8px 12px;color: #DC143C;border-radius: 7px;">
+<div class="container" style="width: 24%;position: relative;left: -30%;background: #F5DEB3;padding: 8px 10px 8px 12px;color: #DC143C;border-radius: 7px;">
   <h2>User Information</h2>
   <form method="post" action="createaccount.php">
     <div class="form-group">
