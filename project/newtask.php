@@ -18,7 +18,7 @@
     text-decoration: line-through;
     }
     .todolist{
-        background-color:#FFF;
+        background-color:#FFF8DC  ;
         padding:20px 20px 10px 20px;
         margin-top:30px;
     }
@@ -31,7 +31,7 @@
         border-radius:0;
     }
     li.ui-state-default{
-        background:#fff;
+        background:#FFF8DC;
         border:none;
         border-bottom:1px solid #ddd;
     }
@@ -47,7 +47,7 @@
     }
     #done-items li{
         padding:10px 0;
-        border-bottom:1px solid #ddd;
+        border-bottom:1px solid #A52A2A;
         text-decoration:line-through;
     }
     #done-items li:last-child{
@@ -65,7 +65,7 @@
     <div class="row">
       <div class="col-sm-8">
         <!-- <h1 style="color:black"> -->
-            <?php echo "<h1 style='color:black'>Welcome, ".$fname." ".$lname."</h1>";?> !
+            <?php echo "<h1 style='color:black'>Hello, ".$fname." ".$lname."</h1>";?> 
         <!-- </h1> -->
       </div>
     </div>
@@ -77,7 +77,7 @@
 <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h4>My Tasks</h4>
+        <h4>Your Active Tasks</h4>
           <div class="table-responsive">
             <table id="mytable" class="table table-bordred table-striped" style="color:black;">
                 <thead>
