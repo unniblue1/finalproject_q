@@ -22,11 +22,11 @@
     <form method="post" action="index.php" >
       <div class="form-group">
         <label>Task:</label>
-        <input type="text" name="task" class="form-control" id="task" placeholder="Change Task" />
+        <input type="text" name="task" class="form-control" id="task" placeholder="Change Task;"required />
       </div>
       <div class="form-group">
         <label>Start Date:</label>
-        <input type="date" name="createddate" class="form-control" id="createddate" />
+        <input type="date" name="createddate" class="form-control" id="createddate;"required />
       </div>
       <div class="form-group">
         <input type="hidden" name="item_id" class="form-control" id="item_id" value="<?php echo $item_id;?>" />
