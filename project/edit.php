@@ -12,7 +12,7 @@
   <div id="about" class="container-fluid">
     <div class="row">
       <div class="col-sm-8">
-        <h1 style="color:black">Add Product</h1>
+        <h1 style="color:black">Add Your Task</h1>
       </div>
     </div>
   </div>
