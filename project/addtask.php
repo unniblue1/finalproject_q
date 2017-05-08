@@ -6,12 +6,12 @@
   <div id="about" class="container-fluid">
     <div class="row">
       <div class="col-sm-8">
-        <h1 style="color:black">Add Task</h1>
+         <h1>Add Task</h1> 
       </div>
     </div>
   </div>
 
-  <div class="container" style="width: 24%;position: relative;center: -40%;background: #90EE90;padding: 8px 10px 8px 12px;color: #DC143C;border-radius: 7px;"> 
+  <div class="container" style="width: 24%;position: relative;left: -30%;background: #F5DEB3; padding: 8px 10px 8px 12px;color: #DC143C;border-radius: 7px;"> 
     <form method="post" action="index.php" >
       <div class="form-group">
         <label>Task:</label>

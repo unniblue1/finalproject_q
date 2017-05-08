@@ -16,7 +16,7 @@
       
 
 <hr>
-<div class="container" style="color:black">
+<div class="container" style="width: 24%;position: relative;left: -30%;background: #F5DEB3;padding: 8px 10px 8px 12px;color: #DC143C;border-radius: 7px;" >
   <h2>Log In</h2>
   <form method="post" action="index.php" >
     <div class="form-group">
@@ -36,7 +36,7 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container" style="width: 24%;position: relative;left: -30%">
   <h2>Create Account</h2>
   <form method="post" action="signup_process.php">
     <input type="submit" value="Create Account" class="btn btn-default">
